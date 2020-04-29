@@ -1,8 +1,8 @@
 from hashlib import md5
 
 
-#my_begin = str(input("Enter the beginnning of the message: "))
-my_begin = b'\x42\x66\x37'
+my_begin = str(input("Enter the beginnning of the message (hex): "))
+#my_begin = b'\x42\x66\x37'
 
 def double_md5(message, x, begin):
   print(message, x, begin)
